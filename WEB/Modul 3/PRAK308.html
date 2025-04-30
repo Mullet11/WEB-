@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>Pendaftaran Kursus</title>
+</head>
+<body>
+    <table border="2">
+        <tr style="background-color: skyblue;">
+            <td colspan="2" width="400" height="40" align="center" style="color: red; font-family: arial black;">Pendaftaran Kursus</td>
+        </tr>
+
+        <tr style="background-color: grey;">
+            <td>
+                <p style="margin-bottom: -10px; font-size: large; font-family: arial black;">Data Diri</p>
+                <br>
+                nama <input type="text" name="nama" style="margin-left: 107.5">
+                <br>
+                Nim <input type="text" name="nim" style="margin-left: 114;">
+                <br>
+                E-mail <input type="email" name="email" style="margin-left: 99;">
+                <br>
+                Tanggal Lahir <input type="date" name="tanggal_lahir" style="margin-left: 52;">
+                <br>
+                Jenis Kelamin
+                <input type="checkbox" name="Laki-laki" value="Laki-laki" style="margin-left: 50;">Laki-laki
+                <br>
+                <input type="checkbox" name="Perempuan" value="Perempuan" style="margin-left: 145.5;">Perempuan
+                <br>
+                Pilih Program
+                <input type="checkbox" name="c#" value="c#" style="margin-left: 52;">C#
+                <br>
+                <input type="checkbox" name="java" value="java" style="margin-left: 145.5;">Java
+                <br>
+                <input type="checkbox" name="sql" value="sql" style="margin-left: 145.5;">SQL
+                <br>
+                <input type="checkbox" name="html_dan_php" value="html_dan_php" style="margin-left: 145.5;">HTML dan PHP
+                <br>
+                Pilih Hari/Jam Kursus
+                <select name="hari">
+                    <option>Senin-Rabu/09.00-11.00</option>
+                    <option>Kamis-Jumat/17-19.00</option>
+                    <option>Sabtu-Minggu/12.00-2.00</option>
+                </select> <br><br><br><br>
+            </td>
+        </tr>
+        <tr style="background-color: salmon;">
+            <td>
+                Komentar Anda
+                <br>
+                <textarea width="400" height="40"></textarea>
+                <br>
+                <form>
+                    <input type="reset" value="Reset" name="Reset">
+                    <input type="submit" value="Kirim" name="Submit">
+                    <input type="button" value="Batal" name="Cancel">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
